@@ -146,8 +146,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/ahc.jpg",
-            "title": "Column",
-            "text": "<p>Air Jordan 1 High \"Chicago\"<\/p><p>This has become a legendary colorway due to Michael Jordan's astounding career. Every sneakerhead must have a pair of these in their collection.<\/p>",
+            "title": "Air Jordan 1 High \"Chicago\"",
+            "text": "<p><\/p><p>This has become a legendary colorway due to Michael Jordan's astounding career. Every sneakerhead must have a pair of these in their collection.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -156,8 +156,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/aj1sds.jpg",
-            "title": "Column",
-            "text": "<p>Air Jordan 1 High \"Fearless\"<\/p><p>The “fearless” 1s are part of a larger pack of sneakers and the idea is based off of a quote by Michael Jordan: “Limits, Like Fears, Are Often Just An Illusion”.<\/p>",
+            "title": "Air Jordan 1 High \"Fearless\"",
+            "text": "<p><\/p><p>The “fearless” 1s are part of a larger pack of sneakers and the idea is based off of a quote by Michael Jordan: “Limits, Like Fears, Are Often Just An Illusion”.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -166,8 +166,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/aj1obs.jpg",
-            "title": "Column",
-            "text": "<p>Air Jordan 1 High \"Obsidian\"<\/p><p>Nike honors the original Air Jordan 1 with a new Obsidian colorway with a tan, dark and light blue leather upper. The Obsidian and University Blue overlays honor Michael Jordan's alma mater while creating a style that brings the courts to the streets.<\/p>",
+            "title": "Air Jordan 1 High \"Obsidian\"",
+            "text": "<p>Nike honors the original Air Jordan 1 with a new Obsidian colorway with a tan, dark and light blue leather upper. The Obsidian and University Blue overlays honor Michael Jordan's alma mater while creating a style that brings the courts to the streets.<\/p>",
             "link_label": "",
             "link": ""
           }
