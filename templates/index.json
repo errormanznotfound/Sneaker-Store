@@ -6,38 +6,20 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "The Air Jordan 1 High debuted in 1985 as the first signature sneaker developed by Nike for Michael Jordan.",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "heading"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/AJ1OWC.jpg",
+        "image_2": "shopify:\/\/shop_images\/AJ1S.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -53,22 +35,31 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand</p>",
+            "heading": "<p>snkrsalley provides ONLY the best for our customers.<\/p>",
             "heading_size": "h1"
+          }
+        },
+        "d7723f52-5b00-4894-b4fb-83459495eedd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We, at snkrsalley, cater to your different needs.  We'll make sure you get what you want.<\/p>"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": ""
           }
         }
       },
       "block_order": [
         "heading",
+        "d7723f52-5b00-4894-b4fb-83459495eedd",
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -78,19 +69,26 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "SNEAKER SELECTION",
+        "heading_size": "h1",
+        "description": "<p>Don't miss out on our opening sale!<\/p>",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "products_to_show": 10,
+        "columns_desktop": 3,
+        "full_width": true,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "inverse",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -101,34 +99,28 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "off-white-collection"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "air-jordan-1-high-x-off-white",
             "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
           }
         }
       },
       "block_order": [
         "collection-0",
-        "product",
-        "collection-1"
+        "product"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
+        "heading": "Collections:",
+        "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
-        "color_scheme": "background-1",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "inverse",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -137,11 +129,12 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/UNC1.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=LUqFaPrkdEY",
         "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
+        "full_width": true,
+        "color_scheme": "background-2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -152,8 +145,9 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ahc.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Air Jordan 1 High \"Chicago\"<\/p><p>This has become a legendary colorway due to Michael Jordan's astounding career. Every sneakerhead must have a pair of these in their collection.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -161,8 +155,9 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/aj1sds.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Air Jordan 1 High \"Fearless\"<\/p><p>The “fearless” 1s are part of a larger pack of sneakers and the idea is based off of a quote by Michael Jordan: “Limits, Like Fears, Are Often Just An Illusion”.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -170,8 +165,9 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/aj1obs.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Air Jordan 1 High \"Obsidian\"<\/p><p>Nike honors the original Air Jordan 1 with a new Obsidian colorway with a tan, dark and light blue leather upper. The Obsidian and University Blue overlays honor Michael Jordan's alma mater while creating a style that brings the courts to the streets.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -192,9 +188,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
